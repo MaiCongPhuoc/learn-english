@@ -25,10 +25,10 @@ const Header = () => {
         </li> */}
         <li
           className={`md:text-2xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
-            location.pathname === '/grammar' ? 'bg-gray-300 text-amber-500' : ''
+            location.pathname === '/' ? 'bg-gray-300 text-amber-500' : ''
           }`}
         >
-          <Link to={'/grammar'} className="px-2 py-4 block">
+          <Link to={'/'} className="px-2 py-4 block">
             {t('Grammar')}
           </Link>
         </li>

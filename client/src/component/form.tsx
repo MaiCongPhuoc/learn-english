@@ -26,7 +26,7 @@ const Form = ({ value }: Form) => {
   const { t } = useTranslation();
 
   const dispatch = useDispatch<AppDispatch>();
-  const { data } = useSelector((state: RootState) => state.counter);
+  const { data } = useSelector((state: RootState) => state.vocabulary);
 
   const form = useForm({
     defaultValues: {

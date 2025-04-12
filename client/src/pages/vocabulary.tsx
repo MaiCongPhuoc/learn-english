@@ -18,7 +18,7 @@ const Vocabulary = () => {
 
   const dispatch = useDispatch<AppDispatch>();
   const { data, error, loading } = useSelector(
-    (state: RootState) => state.counter
+    (state: RootState) => state.vocabulary
   );
 
   const vocabulariesArr = Object.values(data);

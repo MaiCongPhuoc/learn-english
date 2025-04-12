@@ -1,11 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from './counterSlice';
+import vocabularyReducer from './vocabularySlice';
 
 const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    vocabulary: vocabularyReducer,
   },
-  // Thêm redux-thunk vào middleware của store
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({ serializableCheck: false }),
 });

@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Tạo một async action để gọi API
 export const getVocabulary = createAsyncThunk(
-  'counter/getVocabulary',
+  'vocabulary/getVocabulary',
   async () => {
     // Gọi API và trả về kết quả
     const response = await axios.get('http://localhost:5000/read-text-file');
@@ -13,7 +13,7 @@ export const getVocabulary = createAsyncThunk(
 
 // Tạo một async action để gọi API
 export const saveVocabulary = createAsyncThunk(
-  'counter/saveVocabulary',
+  'vocabulary/saveVocabulary',
   async (data: any) => {
     // Gọi API và trả về kết quả
     const response = await axios.post('http://localhost:5000/write-text-file', {
@@ -25,7 +25,7 @@ export const saveVocabulary = createAsyncThunk(
 
 // Tạo một async action để gọi API
 export const updateVocabulary = createAsyncThunk(
-  'counter/updateVocabulary',
+  'vocabulary/updateVocabulary',
   async (data: any) => {
     // Gọi API và trả về kết quả
     const response = await axios.put(
@@ -40,7 +40,7 @@ export const updateVocabulary = createAsyncThunk(
 
 // Tạo một async action để gọi API
 export const removeVocabulary = createAsyncThunk(
-  'counter/removeVocabulary',
+  'vocabulary/removeVocabulary',
   async (key: any) => {
     // Gọi API và trả về kết quả
     const response = await axios.delete(

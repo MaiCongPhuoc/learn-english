@@ -9,7 +9,7 @@ const { TextArea } = Input;
 const Passage = () => {
   const [valuePassage, setValuePassage] = useState<string[]>([]);
   const { data, error, loading } = useSelector(
-    (state: RootState) => state.counter
+    (state: RootState) => state.vocabulary
   );
 
   const wordArr = ['I', 'read', 'book'];

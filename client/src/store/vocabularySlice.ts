@@ -9,21 +9,21 @@ import {
 import { VocabularyType } from '@/type';
 
 // Định nghĩa trạng thái ban đầu
-interface CounterState {
+interface CocabularyState {
   data: Record<string, any>;
   loading: boolean;
   error: string | null;
 }
 
 // Trạng thái ban đầu
-const initialState: CounterState = {
+const initialState: CocabularyState = {
   data: [],
   loading: false,
   error: null,
 };
 
-const counterSlice = createSlice({
-  name: 'counter',
+const vocabularySlice = createSlice({
+  name: 'vocabulary',
   initialState,
   reducers: {
     increment: (state) => {
@@ -88,5 +88,5 @@ const counterSlice = createSlice({
   },
 });
 
-export const { increment } = counterSlice.actions;
-export default counterSlice.reducer;
+export const { increment } = vocabularySlice.actions;
+export default vocabularySlice.reducer;
