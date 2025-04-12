@@ -5,5 +5,4 @@ client/tsconfig.tsbuildinfo/
 
 
 server/node_modules/
-server/dist/
 server/package-lock.json/
