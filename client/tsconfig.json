@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Đảm bảo baseUrl là thư mục gốc
+    "paths": {
+      "@/*": ["src/*"] // Alias '@' trỏ tới thư mục 'src'
+    },
+    "strict": true, // Chế độ kiểm tra lỗi chặt chẽ
+    "jsx": "react-jsx", // Đảm bảo TypeScript hiểu JSX đúng
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*"] // Bao gồm toàn bộ mã nguồn trong thư mục src
+}

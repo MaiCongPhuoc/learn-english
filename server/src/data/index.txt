@@ -1,0 +1,38 @@
+{
+  "apple": {
+    "vocabulary": "apple",
+    "meaning": "quả táo",
+    "read": "/ˈæpl/",
+    "classification": "n"
+  },
+  "book": {
+    "vocabulary": "book",
+    "meaning": "sách",
+    "read": "/bʊk/",
+    "classification": "n"
+  },
+  "read": {
+    "vocabulary": "read",
+    "meaning": "đọc",
+    "read": "/riːd/",
+    "classification": "n"
+  },
+  "write": {
+    "vocabulary": "write",
+    "meaning": "viết",
+    "read": "/raɪt/",
+    "classification": "n"
+  },
+  "house": {
+    "vocabulary": "house",
+    "meaning": "căn nhà",
+    "read": "/ˈhaʊs/",
+    "classification": "n"
+  },
+  "want": {
+    "vocabulary": "want",
+    "classification": "v",
+    "read": "/ˈwɔnt/",
+    "meaning": "muốn"
+  }
+}
