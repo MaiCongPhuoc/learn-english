@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "target": "ES2017",
+    "module": "ESNext",
     "baseUrl": ".", // Đảm bảo baseUrl là thư mục gốc
     "paths": {
       "@/*": ["src/*"] // Alias '@' trỏ tới thư mục 'src'
