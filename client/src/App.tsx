@@ -7,11 +7,12 @@ import IrregularVerbTable from './pages/irregularVerbTable';
 import Vocabulary from './pages/vocabulary';
 import Passage from './pages/passage';
 import { useEffect } from 'react';
-import { AppDispatch } from './store/store';
 import { getVocabulary } from './store/action';
 import { useAppDispatch } from './store/hooks';
+import { API_URL } from './type';
 
 function App() {
+  console.log('API_URL: ', API_URL);
   const dispatch = useAppDispatch();
   useEffect(() => {
     dispatch(getVocabulary());
