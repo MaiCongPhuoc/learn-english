@@ -1,4 +1,10 @@
 {
+  "123": {
+    "vocabulary": "123",
+    "classification": "n",
+    "read": "123",
+    "meaning": "123"
+  },
   "apple": {
     "vocabulary": "apple",
     "meaning": "quả táo",
@@ -31,8 +37,14 @@
   },
   "want": {
     "vocabulary": "want",
-    "classification": "v",
+    "meaning": "muốn",
     "read": "/ˈwɔnt/",
-    "meaning": "muốn"
+    "classification": "v"
+  },
+  "need": {
+    "vocabulary": "need",
+    "meaning": "cần",
+    "read": "/ˈnid/",
+    "classification": "v"
   }
 }

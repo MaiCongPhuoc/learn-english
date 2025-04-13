@@ -8,7 +8,7 @@ const IrregularVerbTable = () => {
       <table className="table-fixed border-collapse w-full">
         <thead>
           <tr className="border border-blue-300 bg-blue-300">
-            <th>STT</th>
+            <th className="w-5">STT</th>
             <th>{t('Infinitive')}</th>
             <th>{t('Past')}</th>
             <th>{t('PastParticiple')}</th>
@@ -19,8 +19,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>1</td>
             <td>abide</td>
-            <td>abode/abided</td>
-            <td>abode/abided</td>
+            <td>abode / abided</td>
+            <td>abode / abided</td>
             <td>lưu trú, lưu lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -41,13 +41,13 @@ const IrregularVerbTable = () => {
             <td>4</td>
             <td>backslide</td>
             <td>backslid</td>
-            <td>backslidden/backslid</td>
+            <td>backslidden / backslid</td>
             <td>tái phạm</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>5</td>
             <td>be</td>
-            <td>was/were</td>
+            <td>was / were</td>
             <td>been</td>
             <td>thì, là, bị, ở</td>
           </tr>
@@ -62,7 +62,7 @@ const IrregularVerbTable = () => {
             <td>7</td>
             <td>beat</td>
             <td>beat</td>
-            <td>beaten/beat</td>
+            <td>beaten / beat</td>
             <td>đánh, đập</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -117,8 +117,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>15</td>
             <td>bet</td>
-            <td>bet/betted</td>
-            <td>bet/betted</td>
+            <td>bet / betted</td>
+            <td>bet / betted</td>
             <td>đánh cược, cá cược</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -188,7 +188,7 @@ const IrregularVerbTable = () => {
             <td>25</td>
             <td>browbeat</td>
             <td>browbeat</td>
-            <td>browbeaten/browbeat</td>
+            <td>browbeaten / browbeat</td>
             <td>hăm dọa</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -201,8 +201,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>27</td>
             <td>burn</td>
-            <td>burnt/burned</td>
-            <td>burnt/burned</td>
+            <td>burnt / burned</td>
+            <td>burnt / burned</td>
             <td>đốt, cháy</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -215,8 +215,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>29</td>
             <td>bust</td>
-            <td>busted/bust</td>
-            <td>busted/bust</td>
+            <td>busted / bust</td>
+            <td>busted / bust</td>
             <td>làm bể, làm vỡ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -243,8 +243,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>33</td>
             <td>chide</td>
-            <td>chid/chided</td>
-            <td>chid/chidden/chided</td>
+            <td>chid / chided</td>
+            <td>chid / chidden / chided</td>
             <td>mắng, chửi</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -257,8 +257,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>35</td>
             <td>cleave</td>
-            <td>clove/cleft/cleaved</td>
-            <td>cloven/cleft/cleaved</td>
+            <td>clove / cleft / cleaved</td>
+            <td>cloven / cleft / cleaved</td>
             <td>chẻ, tách hai</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -278,8 +278,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>38</td>
             <td>clothe</td>
-            <td>clothed/clad</td>
-            <td>clothed/clad</td>
+            <td>clothed / clad</td>
+            <td>clothed / clad</td>
             <td>che phủ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -313,7 +313,7 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>43</td>
             <td>crow</td>
-            <td>crew/crewed</td>
+            <td>crew / crewed</td>
             <td>crowed</td>
             <td>gáy (gà)</td>
           </tr>
@@ -327,8 +327,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>45</td>
             <td>daydream</td>
-            <td>daydreamed daydreamt</td>
-            <td>daydreamed daydreamt</td>
+            <td>daydreamed / daydreamt</td>
+            <td>daydreamed / daydreamt</td>
             <td>nghĩ vẩn vơ, mơ mộng</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -349,13 +349,13 @@ const IrregularVerbTable = () => {
             <td>48</td>
             <td>disprove</td>
             <td>disproved</td>
-            <td>disproved/disproven</td>
+            <td>disproved / disproven</td>
             <td>bác bỏ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>49</td>
             <td>dive</td>
-            <td>dove/dived</td>
+            <td>dove / dived</td>
             <td>dived</td>
             <td>lặn, lao xuống</td>
           </tr>
@@ -376,8 +376,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>52</td>
             <td>dream</td>
-            <td>dreamt/dreamed</td>
-            <td>dreamt/dreamed</td>
+            <td>dreamt / dreamed</td>
+            <td>dreamt / dreamed</td>
             <td>mơ thấy</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -446,8 +446,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>62</td>
             <td>fit</td>
-            <td>fitted/fit</td>
-            <td>fitted/fit</td>
+            <td>fitted / fit</td>
+            <td>fitted / fit</td>
             <td>làm cho vừa, làm cho hợp</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -481,15 +481,15 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>67</td>
             <td>forbid</td>
-            <td>forbade/forbad</td>
+            <td>forbade / forbad</td>
             <td>forbidden</td>
             <td>cấm, cấm đoán</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>68</td>
             <td>forecast</td>
-            <td>forecast/forecasted</td>
-            <td>forecast/forecasted</td>
+            <td>forecast / forecasted</td>
+            <td>forecast / forecasted</td>
             <td>tiên đoán</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -552,21 +552,21 @@ const IrregularVerbTable = () => {
             <td>77</td>
             <td>get</td>
             <td>got</td>
-            <td>got/gotten</td>
+            <td>got / gotten</td>
             <td>có được</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>78</td>
             <td>gild</td>
-            <td>gilt/gilded</td>
-            <td>gilt/gilded</td>
+            <td>gilt / gilded</td>
+            <td>gilt / gilded</td>
             <td>mạ vàng</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>79</td>
             <td>gird</td>
-            <td>girt/girded</td>
-            <td>girt/girded</td>
+            <td>girt / girded</td>
+            <td>girt / girded</td>
             <td>đeo vào</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -635,15 +635,15 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>89</td>
             <td>heave</td>
-            <td>hove/heaved</td>
-            <td>hove/heaved</td>
+            <td>hove / heaved</td>
+            <td>hove / heaved</td>
             <td>trục lên</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>90</td>
             <td>hew</td>
             <td>hewed</td>
-            <td>hewn/hewed</td>
+            <td>hewn / hewed</td>
             <td>chặt, đốn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -733,15 +733,15 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>103</td>
             <td>kneel</td>
-            <td>knelt/kneeled</td>
-            <td>knelt/kneeled</td>
+            <td>knelt / kneeled</td>
+            <td>knelt / kneeled</td>
             <td>quỳ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>104</td>
             <td>knit</td>
-            <td>knit/knitted</td>
-            <td>knit/knitted</td>
+            <td>knit / knitted</td>
+            <td>knit / knitted</td>
             <td>đan</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -768,8 +768,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>108</td>
             <td>lean</td>
-            <td>leaned/leant</td>
-            <td> leaned/leant</td>
+            <td>leaned / leant</td>
+            <td> leaned / leant</td>
             <td>dựa, tựa</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -782,8 +782,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>110</td>
             <td>learn</td>
-            <td>learnt/learned</td>
-            <td>learnt/learned</td>
+            <td>learnt / learned</td>
+            <td>learnt / learned</td>
             <td>học, được biết</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -817,8 +817,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>115</td>
             <td>light</td>
-            <td>lit/lighted</td>
-            <td>lit/lighted </td>
+            <td>lit / lighted</td>
+            <td>lit / lighted </td>
             <td>thắp sáng</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -972,7 +972,7 @@ const IrregularVerbTable = () => {
             <td>137</td>
             <td>mow</td>
             <td>mowed</td>
-            <td>mown/mowed</td>
+            <td>mown / mowed</td>
             <td>cắt cỏ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1036,7 +1036,7 @@ const IrregularVerbTable = () => {
             <td>outfly</td>
             <td>outflew</td>
             <td>outflown</td>
-            <td>bay cao/xa hơn</td>
+            <td>bay cao / xa hơn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>147</td>
@@ -1048,9 +1048,9 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>148</td>
             <td>outleap</td>
-            <td>outleaped/outleapt</td>
-            <td>outleaped/outleapt</td>
-            <td>nhảy cao/xa hơn</td>
+            <td>outleaped / outleapt</td>
+            <td>outleaped / outleapt</td>
+            <td>nhảy cao, xa hơn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>149</td>
@@ -1090,8 +1090,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>154</td>
             <td>outshine</td>
-            <td>outshined/outshone</td>
-            <td>outshined/outshone</td>
+            <td>outshined / outshone</td>
+            <td>outshined / outshone</td>
             <td>sáng hơn, rạng rỡ hơn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1120,13 +1120,13 @@ const IrregularVerbTable = () => {
             <td>outsleep</td>
             <td>outslept</td>
             <td>outslept</td>
-            <td>ngủ lâu/muộn hơn</td>
+            <td>ngủ lâu / muộn hơn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>159</td>
             <td>outsmell</td>
-            <td>outsmelled/outsmelt</td>
-            <td>outsmelled/outsmelt</td>
+            <td>outsmelled / outsmelt</td>
+            <td>outsmelled / outsmelt</td>
             <td>khám phá, đánh hơi, sặc mùi</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1134,14 +1134,14 @@ const IrregularVerbTable = () => {
             <td>outspeak</td>
             <td>outspoke</td>
             <td>outspoken</td>
-            <td>nói nhiều/dài/to hơn</td>
+            <td>nói nhiều, dài, to hơn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>161</td>
             <td>outspeed</td>
             <td>outsped</td>
             <td>outsped</td>
-            <td>đi/chạy nhanh hơn</td>
+            <td>đi, chạy nhanh hơn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>162</td>
@@ -1190,7 +1190,7 @@ const IrregularVerbTable = () => {
             <td>overbid</td>
             <td>overbid</td>
             <td>overbid</td>
-            <td>trả giá/bỏ thầu cao hơn</td>
+            <td>trả giá / bỏ thầu cao hơn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>169</td>
@@ -1322,7 +1322,7 @@ const IrregularVerbTable = () => {
             <td>187</td>
             <td>oversew</td>
             <td>oversewed</td>
-            <td>oversewn/oversewed</td>
+            <td>oversewn / oversewed</td>
             <td>may nối vắt</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1356,8 +1356,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>192</td>
             <td>overspill</td>
-            <td>overspilled/overspilt</td>
-            <td>overspilled/overspilt</td>
+            <td>overspilled / overspilt</td>
+            <td>overspilled / overspilt</td>
             <td>đổ, làm tràn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1412,8 +1412,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>200</td>
             <td>plead</td>
-            <td>pleaded/pled</td>
-            <td>pleaded/pled</td>
+            <td>pleaded / pled</td>
+            <td>pleaded / pled</td>
             <td> bào chữa, biện hộ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1476,7 +1476,7 @@ const IrregularVerbTable = () => {
             <td>209</td>
             <td>prove</td>
             <td>proved</td>
-            <td>proven/proved</td>
+            <td>proven / proved</td>
             <td>chứng minh</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1496,8 +1496,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>212</td>
             <td>quit</td>
-            <td>quit/quitted</td>
-            <td>quit/quitted</td>
+            <td>quit / quitted</td>
+            <td>quit / quitted</td>
             <td>bỏ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1531,8 +1531,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>217</td>
             <td>rebroadcast</td>
-            <td>rebroadcast rebroadcasted</td>
-            <td>rebroadcast rebroadcasted</td>
+            <td>rebroadcast / rebroadcasted</td>
+            <td>rebroadcast / rebroadcasted</td>
             <td>cự tuyệt, khước từ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1580,8 +1580,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>224</td>
             <td>refit</td>
-            <td>refitted/refit</td>
-            <td>refitted/refit</td>
+            <td>refitted / refit</td>
+            <td>refitted / refit</td>
             <td>luồn, xỏ</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1615,8 +1615,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>229</td>
             <td>reknit</td>
-            <td>reknitted/reknit</td>
-            <td>reknitted/reknit</td>
+            <td>reknitted / reknit</td>
+            <td>reknitted / reknit</td>
             <td>đan lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1636,15 +1636,15 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>232</td>
             <td>relearn</td>
-            <td>relearned/relearnt</td>
-            <td>relearned/relearnt</td>
+            <td>relearned / relearnt</td>
+            <td>relearned / relearnt</td>
             <td> học lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>233</td>
             <td>relight</td>
-            <td>relit/relighted</td>
-            <td>relit/relighted</td>
+            <td>relit / relighted</td>
+            <td>relit / relighted</td>
             <td>thắp sáng lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1707,8 +1707,8 @@ const IrregularVerbTable = () => {
             <td>242</td>
             <td>resew</td>
             <td>resewed </td>
-            <td>resewn/resewed</td>
-            <td> may/khâu lại</td>
+            <td>resewn / resewed</td>
+            <td> may / khâu lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>243</td>
@@ -1750,20 +1750,20 @@ const IrregularVerbTable = () => {
             <td>retread</td>
             <td>retread</td>
             <td>retread</td>
-            <td>lại giẫm/đạp lên</td>
+            <td>lại giẫm / đạp lên</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>249</td>
             <td>retrofit</td>
-            <td>retrofitted/retrofit</td>
-            <td> retrofitted/retrofit</td>
+            <td>retrofitted / retrofit</td>
+            <td> retrofitted / retrofit</td>
             <td> trang bị thêm những bộ phận mới</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>250</td>
             <td>rewake</td>
-            <td>rewoke/rewaked</td>
-            <td>rewaken/rewaked</td>
+            <td>rewoke / rewaked</td>
+            <td>rewaken / rewaked</td>
             <td> đánh thức lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1776,22 +1776,22 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>252</td>
             <td>reweave</td>
-            <td>rewove/reweaved</td>
-            <td>rewoven/reweaved</td>
+            <td>rewove / reweaved</td>
+            <td>rewoven / reweaved</td>
             <td> dệt lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>253</td>
             <td>rewed</td>
-            <td>rewed/rewedded</td>
-            <td>rewed/rewedded</td>
+            <td>rewed / rewedded</td>
+            <td>rewed / rewedded</td>
             <td> kết hôn lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>254</td>
             <td>rewet</td>
-            <td>rewet/rewetted</td>
-            <td>rewet/rewetted</td>
+            <td>rewet / rewetted</td>
+            <td>rewet / rewetted</td>
             <td> làm ướt lại</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1917,7 +1917,7 @@ const IrregularVerbTable = () => {
             <td>272</td>
             <td>sew</td>
             <td>sewed</td>
-            <td>sewn/sewed</td>
+            <td>sewn / sewed</td>
             <td>may</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1931,7 +1931,7 @@ const IrregularVerbTable = () => {
             <td>274</td>
             <td>shave</td>
             <td>shaved</td>
-            <td>shaved/shaven</td>
+            <td>shaved / shaven</td>
             <td>cạo (râu, mặt)</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1958,8 +1958,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>278</td>
             <td>shit</td>
-            <td>shit/shat/shitted</td>
-            <td>shit/shat/shitted</td>
+            <td>shit / shat / shitted</td>
+            <td>shit / shat / shitted</td>
             <td>suộc khuộng đi đại tiện</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -1973,7 +1973,7 @@ const IrregularVerbTable = () => {
             <td>280</td>
             <td>show</td>
             <td>showed</td>
-            <td>shown/showed</td>
+            <td>shown / showed</td>
             <td>cho xem</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2077,8 +2077,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>295</td>
             <td>sneak</td>
-            <td>sneaked/snuck</td>
-            <td>sneaked/snuck</td>
+            <td>sneaked / snuck</td>
+            <td>sneaked / snuck</td>
             <td>trốn, lén</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2091,15 +2091,15 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>298</td>
             <td>speed</td>
-            <td>sped/speeded</td>
-            <td>sped/speeded</td>
+            <td>sped / speeded</td>
+            <td>sped / speeded</td>
             <td> chạy vụt</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>299</td>
             <td>spell</td>
-            <td>spelt/spelled</td>
-            <td>spelt/spelled</td>
+            <td>spelt / spelled</td>
+            <td>spelt / spelled</td>
             <td> đánh vần</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2112,22 +2112,22 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>301</td>
             <td>spill</td>
-            <td>spilt/spilled</td>
-            <td>spilt/spilled</td>
+            <td>spilt / spilled</td>
+            <td>spilt / spilled</td>
             <td> tràn, đổ ra</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>302</td>
             <td>spin</td>
-            <td>spun/span</td>
+            <td>spun / span</td>
             <td>spun</td>
             <td>quay sợi</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>303</td>
             <td>spoil</td>
-            <td>spoilt/spoiled</td>
-            <td>spoilt/spoiled</td>
+            <td>spoilt / spoiled</td>
+            <td>spoilt / spoiled</td>
             <td> làm hỏng</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2168,7 +2168,7 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>308</td>
             <td>stink</td>
-            <td>stunk/stank</td>
+            <td>stunk / stank</td>
             <td>stunk</td>
             <td>bốc mùi hôi</td>
           </tr>
@@ -2196,8 +2196,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>312</td>
             <td>sunburn</td>
-            <td>sunburned/sunburnt</td>
-            <td> sunburned/sunburnt</td>
+            <td>sunburned / sunburnt</td>
+            <td> sunburned / sunburnt</td>
             <td> cháy nắng</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2210,8 +2210,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>314</td>
             <td>sweat</td>
-            <td>sweat/sweated</td>
-            <td>sweat/sweated</td>
+            <td>sweat / sweated</td>
+            <td>sweat / sweated</td>
             <td> đổ mồ hôi</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2225,7 +2225,7 @@ const IrregularVerbTable = () => {
             <td>316</td>
             <td>swell</td>
             <td>swelled</td>
-            <td>swollen/swelled</td>
+            <td>swollen / swelled</td>
             <td> phồng, sưng</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2302,7 +2302,7 @@ const IrregularVerbTable = () => {
             <td>327</td>
             <td>tread</td>
             <td>trod</td>
-            <td>trodden/trod</td>
+            <td>trodden / trod</td>
             <td>giẫm, đạp</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2329,8 +2329,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>331</td>
             <td>unclothe</td>
-            <td>unclothed/unclad</td>
-            <td> unclothed/unclad</td>
+            <td>unclothed / unclad</td>
+            <td> unclothed / unclad</td>
             <td>cởi áo, lột trần</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2413,8 +2413,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>343</td>
             <td>unlearn</td>
-            <td>unlearned/unlearnt</td>
-            <td> unlearned/unlearnt</td>
+            <td>unlearned / unlearnt</td>
+            <td> unlearned / unlearnt</td>
             <td>gạt bỏ, quên</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2448,8 +2448,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>348</td>
             <td>wake</td>
-            <td>woke/waked</td>
-            <td>woken/waked</td>
+            <td>woke / waked</td>
+            <td>woken / waked</td>
             <td>thức giấc</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2462,8 +2462,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>350</td>
             <td>wed</td>
-            <td>wed/wedded</td>
-            <td>wed/wedded</td>
+            <td>wed / wedded</td>
+            <td>wed / wedded</td>
             <td> kết hôn</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
@@ -2476,8 +2476,8 @@ const IrregularVerbTable = () => {
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">
             <td>352</td>
             <td>wet</td>
-            <td>wet/wetted</td>
-            <td>wet/wetted</td>
+            <td>wet / wetted</td>
+            <td>wet / wetted</td>
             <td> làm ướt</td>
           </tr>
           <tr className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300">

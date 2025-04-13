@@ -1,18 +1,14 @@
 import { Button, Popover, Input } from 'antd';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/store/store';
-import { AnyFieldApi, useForm } from '@tanstack/react-form';
+import { useForm } from '@tanstack/react-form';
 import { useState } from 'react';
 
 const { TextArea } = Input;
 
 const Passage = () => {
   const [valuePassage, setValuePassage] = useState<string[]>([]);
-  const { data, error, loading } = useSelector(
-    (state: RootState) => state.vocabulary
-  );
-
-  const wordArr = ['I', 'read', 'book'];
+  const { data } = useSelector((state: RootState) => state.vocabulary);
 
   const form = useForm({
     defaultValues: {

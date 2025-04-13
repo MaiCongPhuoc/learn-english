@@ -15,51 +15,51 @@ const Header = () => {
     <nav className="flex justify-between items-center p-3">
       <ul className="flex gap-3 overflow-x-scroll">
         {/* <li
-          className={`md:text-2xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
+          className={`md:text-xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
             location.pathname === '/' ? 'bg-gray-300 text-amber-500' : ''
           }`}
         >
-          <Link to={'/'} className="px-2 py-4 block">
+          <Link to={'/'} className="px-1 py-2 block">
             {t('Home')}
           </Link>
         </li> */}
         <li
-          className={`md:text-2xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
+          className={`md:text-xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
             location.pathname === '/' ? 'bg-gray-300 text-amber-500' : ''
           }`}
         >
-          <Link to={'/'} className="px-2 py-4 block">
+          <Link to={'/'} className="px-1 py-2 block">
             {t('Grammar')}
           </Link>
         </li>
         <li
-          className={`md:text-2xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
+          className={`md:text-xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
             location.pathname === '/irregularVerbTable'
               ? 'bg-gray-300 text-amber-500'
               : ''
           }`}
         >
-          <Link to={'/irregularVerbTable'} className="px-2 py-4 block">
+          <Link to={'/irregularVerbTable'} className="px-1 py-2 block">
             {t('IrregularVerbTable')}
           </Link>
         </li>
         <li
-          className={`md:text-2xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
+          className={`md:text-xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
             location.pathname === '/vocabulary'
               ? 'bg-gray-300 text-amber-500'
               : ''
           }`}
         >
-          <Link to={'/vocabulary'} className="px-2 py-4 block">
+          <Link to={'/vocabulary'} className="px-1 py-2 block">
             {t('Vocabulary')}
           </Link>
         </li>
         <li
-          className={`md:text-2xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
+          className={`md:text-xl text-nowrap font-serif font-bold rounded-lg hover:bg-gray-300 hover:text-amber-700 active:bg-gray-700 active:text-amber-500 ${
             location.pathname === '/passage' ? 'bg-gray-300 text-amber-500' : ''
           }`}
         >
-          <Link to={'/passage'} className="px-2 py-4 block">
+          <Link to={'/passage'} className="px-1 py-2 block">
             {t('Passage')}
           </Link>
         </li>
