@@ -5,4 +5,5 @@ export type VocabularyType = {
   meaning: string;
   read: string;
   classification: string;
+  topic: string;
 };

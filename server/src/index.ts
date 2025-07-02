@@ -14,6 +14,7 @@ export type Vocabulary = {
   meaning: string;
   read: string;
   classification: string;
+  topic: string;
 };
 
 // Đọc file JSON và chuyển đổi dữ liệu về dạng Vocabulary
@@ -45,6 +46,7 @@ app.get("/read-text-file", (req: any, res: any) => {
             meaning: vocab.meaning,
             read: vocab.read,
             classification: vocab.classification,
+            topic: vocab.topic,
           };
         }
       }
@@ -85,6 +87,7 @@ app.post("/write-text-file", (req: any, res: any) => {
             meaning: vocab.meaning,
             read: vocab.read,
             classification: vocab.classification,
+            topic: vocab.topic,
           };
         }
       }

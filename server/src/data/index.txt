@@ -3,42 +3,49 @@
     "vocabulary": "apple",
     "meaning": "quả táo",
     "read": "/ˈæpl/",
-    "classification": "n"
+    "classification": "n",
+    "topic": "Orther"
   },
   "book": {
     "vocabulary": "book",
     "meaning": "sách",
     "read": "/bʊk/",
-    "classification": "n"
+    "classification": "n",
+    "topic": "Orther"
   },
   "read": {
     "vocabulary": "read",
     "meaning": "đọc",
     "read": "/riːd/",
-    "classification": "n"
+    "classification": "n",
+    "topic": "Orther"
   },
   "write": {
     "vocabulary": "write",
     "meaning": "viết",
     "read": "/raɪt/",
-    "classification": "n"
+    "classification": "n",
+    "topic": "Orther"
   },
   "house": {
     "vocabulary": "house",
     "meaning": "căn nhà",
     "read": "/ˈhaʊs/",
-    "classification": "n"
+    "classification": "n",
+    "topic": "Orther"
   },
   "want": {
     "vocabulary": "want",
     "meaning": "muốn",
     "read": "/ˈwɔnt/",
-    "classification": "v"
+    "classification": "v",
+    "topic": "Orther"
   },
   "need": {
     "vocabulary": "need",
     "meaning": "cần",
     "read": "/ˈnid/",
-    "classification": "v"
+    "classification": "v",
+    "topic": "Orther"
   }
 }

@@ -34,6 +34,7 @@ const Form = ({ value }: Form) => {
       classification: 'n',
       read: '',
       meaning: '',
+      topic: '',
     },
     onSubmit: async ({ value }) => {
       const dataReal: any = JSON.parse(JSON.stringify(data));
@@ -67,6 +68,7 @@ const Form = ({ value }: Form) => {
       form.setFieldValue('classification', value.classification);
       form.setFieldValue('read', value.read);
       form.setFieldValue('meaning', value.meaning);
+      form.setFieldValue('topic', value.topic);
     }
   }, [value]);
 
@@ -175,6 +177,33 @@ const Form = ({ value }: Form) => {
                     <Input
                       id={field.name}
                       placeholder={t('Meaning')}
+                      name={field.name}
+                      value={field.state.value}
+                      onBlur={field.handleBlur}
+                      onChange={(e: any) =>
+                        field.handleChange(e.target.value.toLowerCase())
+                      }
+                    />
+                    <FieldInfo field={field} />
+                  </>
+                );
+              }}
+            />
+          </div>
+          <div className="flex flex-col gap-1 text-wrap">
+            <form.Field
+              name="topic"
+              validators={{
+                onChange: ({ value }) =>
+                  !value ? t('PleaseEenterMeaning') : undefined,
+                onChangeAsyncDebounceMs: 500,
+              }}
+              children={(field) => {
+                return (
+                  <>
+                    <Input
+                      id={field.name}
+                      placeholder={t('Topic')}
                       name={field.name}
                       value={field.state.value}
                       onBlur={field.handleBlur}

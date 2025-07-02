@@ -8,6 +8,7 @@ import Form from '@/component/form';
 import { Button, Input, Spin } from 'antd';
 import { LoadingOutlined } from '@ant-design/icons';
 import Swal from 'sweetalert2';
+import React from 'react';
 
 const Vocabulary = () => {
   const [search, setSearch] = useState<string>('');
@@ -64,6 +65,21 @@ const Vocabulary = () => {
     setFilteredVocabularies(newFiltered);
   };
 
+  // Chọn mảng từ vựng để hiển thị (đã lọc hoặc toàn bộ)
+  const vocabulariesToRender = search ? filteredVocabularies : vocabulariesArr;
+
+  // Nhóm từ vựng theo topic
+  const groupedVocabularies: Record<string, VocabularyType[]> = {};
+  vocabulariesToRender.forEach((vocab) => {
+    if (!groupedVocabularies[vocab.topic]) {
+      groupedVocabularies[vocab.topic] = [];
+    }
+    groupedVocabularies[vocab.topic].push(vocab);
+  });
+
+  // Chuyển đối tượng đã nhóm thành một mảng các entry để dễ dàng map
+  const topicEntries = Object.entries(groupedVocabularies);
+
   return (
     <div className="w-full overflow-x-auto h-[calc(100vh-88px)]">
       <Form value={valueForm} />
@@ -91,14 +107,22 @@ const Vocabulary = () => {
               </tr>
             </thead>
             <tbody>
-              {(search ? filteredVocabularies : vocabulariesArr).map(
-                (vocabulary: VocabularyType) => {
-                  return (
+              {topicEntries.map(([topic, vocabsInTopic]) => (
+                // Sử dụng Fragment để bao bọc các hàng của mỗi topic
+                <React.Fragment key={topic}>
+                  {/* Hàng hiển thị Topic */}
+                  <tr className="bg-gray-200 font-bold text-left">
+                    <td colSpan={5} className="text-center text-emerald-600 px-2 py-1 border border-gray-300">
+                      {t('Topic')}: {topic}
+                    </td>
+                  </tr>
+                  {/* Lặp qua các từ vựng trong topic này */}
+                  {vocabsInTopic.map((vocabulary: VocabularyType) => (
                     <tr
                       key={vocabulary.vocabulary}
                       className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300"
                     >
-                      <td>{vocabulary.vocabulary}</td>
+                      <td>{vocabulary.vocabulary.replace(/^./, str => str.toUpperCase())}</td>
                       <td>{vocabulary.classification.toUpperCase()}</td>
                       <td>{vocabulary.read}</td>
                       <td>{vocabulary.meaning}</td>
@@ -119,9 +143,9 @@ const Vocabulary = () => {
                         </Button>
                       </td>
                     </tr>
-                  );
-                }
-              )}
+                  ))}
+                </React.Fragment>
+              ))}
             </tbody>
           </table>
         </>
