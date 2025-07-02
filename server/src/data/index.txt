@@ -1,10 +1,4 @@
 {
-  "123": {
-    "vocabulary": "123",
-    "classification": "n",
-    "read": "123",
-    "meaning": "123"
-  },
   "apple": {
     "vocabulary": "apple",
     "meaning": "quả táo",
