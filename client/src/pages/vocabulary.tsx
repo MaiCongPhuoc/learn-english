@@ -122,7 +122,7 @@ const Vocabulary = () => {
                       key={vocabulary.vocabulary}
                       className="text-center hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-300 border border-gray-300"
                     >
-                      <td>{vocabulary.vocabulary.replace(/^./, str => str.toUpperCase())}</td>
+                      <td>{vocabulary.vocabulary}</td>
                       <td>{vocabulary.classification.toUpperCase()}</td>
                       <td>{vocabulary.read}</td>
                       <td>{vocabulary.meaning}</td>
